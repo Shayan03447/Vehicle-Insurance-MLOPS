@@ -2,9 +2,25 @@
 2: Write the code on setup.py and pyproject.toml file to import local packages
     >>Find more about  "setup.py" and "pyproject.toml" at crashcourse.txt
 3: Create a virtual envirnoment, activate it, and install the requirements from requirements.txt
-    conda create -n proj1 python=3.10 -y
-    conda activate proj1
+    conda create -n vehicle python=3.10 -y
+    conda activate vehicle
     add requirement modules to requirements.txt
     Do "pip install -r requirements.txt"
 4: Do a "pip install" on terminal to make sure you have local packages installed
     
+---------------------MONGODB---------------------
+5: Signup to MONGODB Atlas and create a new project by just providing it a name then next next create.
+6: From "Create a cluster" screen, hit "create", Select MO service keeping other service default, hit "create deploymrnt"
+7: Setup the username and password and then create DB user
+8: Go to "network access" and add ip-address - "0.0.0.0/0" So that we can access it from anywhere,(Allow access from anywhere)
+9: Go back to the project >>"Get connection string" >> "Drivers" >>{Driver:python , Version:3.6 or later}
+    Copy and save the connection string with you (replace password). >>Done
+10: Dataset added to notebook folder
+11: Create folder "notebook" >> create file "mongoDB_demo.ipynb" >>Select kernel>python kerne>>vehicle>>
+12: 
+
+
+
+shanich03447---username
+E8DafkJe7jDYtfAz---password
+mongodb+srv://shanich03447:E8DafkJe7jDYtfAz@cluster0.cdm5qya.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
